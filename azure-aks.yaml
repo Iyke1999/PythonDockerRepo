@@ -15,6 +15,7 @@ spec:
       containers:
       - name: mypythonapp
         image: mydockerazureregistry01.azurecr.io/iyke1999/pythondockerrepo:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 5000
 # service type loadbalancer       
